@@ -1,5 +1,7 @@
 {
-
+ "routes":{
+"route": "index.html"
+ },
     "navigationFallback":{
         "rewrite": "index.html",
         "exclude": ["/static/media/*.{png,jpg,gif,svg}","/static/css/*","/static/js/*","/static/json/*"]
