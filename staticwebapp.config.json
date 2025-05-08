@@ -1,9 +1,9 @@
 {
- "routes":{
-"route": "index.html"
- },
     "navigationFallback":{
         "rewrite": "index.html",
-        "exclude": ["*.{png,jpg,gif,svg}","*.{js}","*.{css,scss}","*.{json}"]
+        "exclude": ["/static/media/*.{png,jpg,gif,svg}","/static/css/*","/static/js/*"]
+    },
+    "mimeTypes": {
+        ".json": "text/json"
     }
 }
