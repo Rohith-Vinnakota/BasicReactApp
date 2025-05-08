@@ -1,7 +1,7 @@
 {
-   "routes":{
-       "route": "index.html"
-},
+ "navigationFallback":{
+    "rewrite": "index.html"
+ },
     "mimeTypes": {
         ".json": "text/json"
     }
